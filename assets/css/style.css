@@ -1,0 +1,29 @@
+body {
+  background: url("../img/interior2small.jpeg") no-repeat fixed;
+  background-size: cover;
+  font-family: 'Enriqueta', serif; }
+
+h1 {
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline; }
+
+.nav-link:hover {
+  text-decoration: underline; }
+
+.jumbotron-parargraph {
+  background-color: rgba(232, 233, 233, 0.5); }
+
+.card {
+  background-color: rgba(91, 91, 54, 0.4);
+  color: white; }
+  .card .card-header {
+    background-color: rgba(81, 81, 48, 0.4);
+    font-weight: bold;
+    font-style: italic; }
+
+@media only screen and (min-width: 500px) {
+  .jumbotron {
+    border: 3px solid black; } }
+
+/*# sourceMappingURL=style.css.map */
