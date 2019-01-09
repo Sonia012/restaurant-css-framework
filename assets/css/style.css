@@ -1,18 +1,33 @@
 body {
-  background: url("../img/interior2small.jpeg") no-repeat fixed;
+  background: url("../img/interior2sm.jpg") no-repeat fixed;
   background-size: cover;
   font-family: 'Enriqueta', serif; }
+  @media only screen and (min-width: 768px) {
+    body {
+      background: url("../img/interior2small.jpeg") no-repeat fixed;
+      background-size: cover; } }
 
 h1 {
   font-weight: bolder;
   font-style: italic;
   text-decoration: underline; }
 
+h5 {
+  font-weight: bold; }
+
+.navbar-nav {
+  background-color: rgba(232, 233, 233, 0.5); }
+
+.navbar-brand {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold; }
+
 .nav-link:hover {
   text-decoration: underline; }
 
 .jumbotron-parargraph {
-  background-color: rgba(232, 233, 233, 0.5); }
+  background-color: rgba(232, 233, 233, 0.3); }
 
 .card {
   background-color: rgba(91, 91, 54, 0.4);
@@ -25,5 +40,10 @@ h1 {
 @media only screen and (min-width: 500px) {
   .jumbotron {
     border: 3px solid black; } }
+.list-group-item {
+  background-color: rgba(232, 233, 233, 0.7); }
+
+.top-line {
+  border-bottom: 1px solid #6C6C6C; }
 
 /*# sourceMappingURL=style.css.map */
