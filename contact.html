@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>The pasta baker</title>
 
   </head>
@@ -41,7 +42,53 @@
 
       <div class="top-line"></div>
 
+      <form>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-10 col-md-8 mt-4">
+              <div class="form-row justify-content-center">
+                <div class="form-group col-5 col-md-4">
+                  <label for="inputFirstName">First name</label>
+                  <input type="text" class="form-control" id="inputFirstName" placeholder="First name">
+                </div>
+                <div class="form-group col-5 col-md-4">
+                  <label for="inputLastName">First name</label>
+                  <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+                </div>
+              </div>
+              <div class="form-row justify-content-center">
+                <div class="form-group col-10 col-md-8">
+                  <label for="inputEmail">Email address:</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-row justify-content-center">
+                <div class="form-group col-10 col-md-8">
+                  <label for="inputSubject">Subject</label>
+                  <select class="form-control" id="inputSubject">
+                    <option selected>Choose...</option>
+                    <option>News</option>
+                    <option>Menu/pastas</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row justify-content-center">
+                <div class="form-group col-10 col-md-8">
+                  <label for="inputMessage">Message</label>
+                  <textarea class="form-control" id="inputMessage" placeholder="Message" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="form-row justify-content-center text-center">
+                <div class="col-10 col-md-8 pb-4">
+                  <button type="submit" class="btn btn-dark">Submit<i class="fa fa-send-o"></i></button>
+                </div>
+             </div>
+            </div>
+          </div>
 
+        </div>
+      </form>
 
 
 

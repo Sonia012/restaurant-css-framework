@@ -8,9 +8,9 @@ body {
       background-size: cover; } }
 
 h1 {
+  text-decoration: underline;
   font-weight: bolder;
-  font-style: italic;
-  text-decoration: underline; }
+  font-style: italic; }
 
 h5 {
   font-weight: bold; }
@@ -31,7 +31,8 @@ h5 {
 
 .card {
   background-color: rgba(91, 91, 54, 0.4);
-  color: white; }
+  color: white;
+  border-width: 2px; }
   .card .card-header {
     background-color: rgba(81, 81, 48, 0.4);
     font-weight: bold;
@@ -45,5 +46,30 @@ h5 {
 
 .top-line {
   border-bottom: 1px solid #6C6C6C; }
+
+.page-item .page-link {
+  color: black; }
+
+.page-item.active .page-link {
+  background-color: gray; }
+
+img {
+  border: 2px solid black; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0; }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+.contact-form {
+  background-color: rgba(232, 233, 233, 0.3);
+  border-radius: 3%; }
 
 /*# sourceMappingURL=style.css.map */
