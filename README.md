@@ -1,6 +1,8 @@
 # restaurant-css-framework
 Link to published site: https://sonia012.github.io/restaurant-css-framework/
 
+# Description
+
 I did this project in Janaury 2019, during the 1st month of my BeCode.org training. The purpose was to make a website for a (fictional) restaurant franchise. We needed to have:
 * a homepage with a Jumbotron and 2 cards,
 * a "Menu" page including the restaurant's menu, 
@@ -13,7 +15,8 @@ The site had to:
 * have the same navigation bar on every page.
 
 
-## Built With
+# Technologies used
+
 * HTML
 * Bootstrap 4
 * SASS
